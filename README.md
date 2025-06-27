@@ -32,10 +32,10 @@ A simple voice assistant in Python that listens to your voice, understands basic
 
 ## 📂 Project Structure
 ├── assistant.py # Handles text-to-speech
+├
 ├── npl.py # Command processing
 ├── main.py # Main voice assistant loop
 ├── quickstart.py # Demo runner with sample commands
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
-├── credentials.json # (Optional dummy placeholder)
-└── service_account.json # (Optional dummy placeholder)
+
