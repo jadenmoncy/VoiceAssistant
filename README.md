@@ -103,6 +103,7 @@ Want to make Friday an executable?
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 Built using open-source Python libraries and the power of voice automation! Special thanks to Google Speech API, `pyttsx3`, and the Python community.
 
 ---
