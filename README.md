@@ -30,7 +30,7 @@ A simple voice assistant in Python that listens to your voice, understands basic
 </p>
 Install these with `pip` if not already installed:
 
-> Replace the image URLs above with your own screenshots!
+
 ```bash
 pip install pyttsx3
 pip install SpeechRecognition
@@ -78,8 +78,7 @@ Built-in modules used:
 ├── quickstart.py # Demo runner with sample commands
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
-├── credentials.json # (Optional dummy placeholder)
-└── service_account.json # (Optional dummy placeholder)
+
 Want to make Friday an executable?
 
 1. Install PyInstaller:
