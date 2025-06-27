@@ -1,116 +1,72 @@
-# 🎙️ My Custom Voice Assistant
----
+# Voice Assistant Project README
 
-# 🤖 Friday – Your Personal Voice Assistant
+This README file provides an overview and instructions for the Voice Assistant project, which utilizes the following Python libraries: `numpy`, `transformers`, `pyttsx3`, and `speech_recognition`. This project aims to develop a voice-controlled assistant that can recognize and respond to user commands.
 
-Welcome to **Friday**, a Python-powered voice assistant built for Windows! This assistant listens to your voice commands 🎤, processes them using Google’s speech recognition, and responds with natural-sounding speech 🗣️. Whether you want to open apps, search Wikipedia, or get the current time, Friday is ready to assist you — hands-free!
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
 
----
+## Project Overview
+The Voice Assistant project is designed to leverage the power of voice recognition and natural language processing to create an interactive assistant. The project relies on the following key libraries:
 
-[![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-## ✨ Features
+- **numpy**: A powerful library for numerical computations in Python, which can be used for various mathematical operations and data manipulation tasks.
+- **transformers**: A library built on the popular Transformer architecture, providing pre-trained models and utilities for natural language processing tasks such as text classification, language translation, and question answering.
+- **pyttsx3**: A cross-platform text-to-speech library that enables the voice assistant to convert text into audible speech.
+- **speech_recognition**: A library that allows the voice assistant to recognize and transcribe spoken language into text.
 
-A simple voice assistant in Python that listens to your voice, understands basic commands, and speaks back to you. Works offline for TTS!
-* 🎙️ **Voice Recognition**: Understands and processes your speech in real-time
-* 🗣️ **Text-to-Speech**: Replies using a natural voice engine (via `pyttsx3`)
-* 📚 **Wikipedia Integration**: Summarizes topics instantly
-* ⏰ **Tells Time & Date**: Just ask for the current time or date
-* 💻 **App/File Launcher**: Opens applications and documents on command
-* 🧠 **Customizable Command Logic**: Easily extend with new voice actions
+By integrating these libraries, the voice assistant project can understand spoken commands, process the text, and generate appropriate responses using text-to-speech synthesis.
 
----
+## Installation
+To set up the voice assistant project on your local machine, follow these steps:
 
-## 📸 Demo Screenshots
-## 🛠️ Tech Stack & Dependencies
+1. Clone the project repository from GitHub:
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x300.png?text=Voice+Assistant+Screenshot+1" alt="Screenshot 1" width="400">
-  <img src="https://via.placeholder.com/600x300.png?text=Voice+Assistant+Screenshot+2" alt="Screenshot 2" width="400">
-</p>
-Install these with `pip` if not already installed:
-
-
-```bash
-pip install pyttsx3
-pip install SpeechRecognition
-pip install wikipedia
-```
-
-Built-in modules used:
-
-* `datetime`
-* `subprocess`
-* `os`
-
----
-
-## ⚡ Features
-## 🚀 Installation & Setup
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/m2kush/VOICE-ASSISTANT-.git
    ```
-2. Run the main file:
-
-✅ Voice recognition via microphone  
-✅ Text-to-speech responses  
-✅ Tells current time on command  
-✅ Custom greetings  
-✅ Continuous command loop  
-✅ Quickstart demo script (no mic needed)  
-✅ Clean, modular code structure  
-   ```bash
-   python friday.py
-   ```
-3. Speak your command when prompted. Friday will listen, interpret, and respond!
-
----
-
-## 📂 Project Structure
-## 🧩 Packaging into .exe (Optional)
-
-├── assistant.py # Handles text-to-speech
-├── npl.py # Command processing
-├── main.py # Main voice assistant loop
-├── quickstart.py # Demo runner with sample commands
-├── requirements.txt # Python dependencies
-├── README.md # This file
-
-Want to make Friday an executable?
-
-1. Install PyInstaller:
-
-   ```bash
-   pip install pyinstaller
-   ```
-2. Create the executable:
-
-   ```bash
-   pyinstaller --onefile friday.py
+   git clone https://github.com/Nikhitha284/voice-assistant.git
    ```
 
-   Find your `.exe` in the `dist/` folder.
+2. Navigate to the project directory:
 
----
+   ```
+   cd voice-assistant
+   ```
 
-## 🚀 Quickstart
-## 🙌 Acknowledgements
+3. Create a virtual environment (optional but recommended) and activate it:
 
-### 1️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
-Built using open-source Python libraries and the power of voice automation! Special thanks to Google Speech API, `pyttsx3`, and the Python community.
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
----
+4. Install the required libraries using pip:
 
-## 📬 Contact
+   ```
+   pip install numpy transformers pyttsx3 speechrecognition wikipedia datetime webbrowser
+   ```
 
-Feel free to fork, enhance, or customize the project. If you have suggestions or run into issues, open an issue or drop a message!
+   Ensure that you have Python and pip installed on your system.
 
-🔗 [GitHub Repository](https://github.com/m2kush/VOICE-ASSISTANT-/tree/main)
+## Usage
+After completing the installation steps, you can start using the voice assistant by running the project's main script. Here's how:
 
----
+1. Make sure you are in the project directory.
+
+2. Execute the main script:
+
+   ```
+   python main.py
+   ```
+
+3. The voice assistant will start listening for your commands. You can speak naturally and provide voice instructions.
+
+   For example:
+   - "What's the weather like today?"
+   - "Tell me a joke."
+   - "Who is the current president of the United States?"
+
+4. The assistant will process your command, generate a response, and speak it aloud using the text-to-speech functionality provided by `pyttsx3`.
+
+
+
+Thank you for your interest in the Voice Assistant project! If you have any further questions or need assistance, please don't hesitate to reach out.
