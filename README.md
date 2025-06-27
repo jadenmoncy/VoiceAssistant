@@ -23,7 +23,7 @@ To set up the voice assistant project on your local machine, follow these steps:
 1. Clone the project repository from GitHub:
 
    ```
-   git clone https://github.com/Nikhitha284/voice-assistant.git
+   git clone https://github.com/m2kush/voice-assistant.git
    ```
 
 2. Navigate to the project directory:
