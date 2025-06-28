@@ -1,6 +1,4 @@
-"""
-this file funtions in sending emails using Gmail using Google API's
-"""
+
 
 from __future__ import print_function
 
@@ -22,7 +20,6 @@ from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 
-# If modifying these scopes, delete the file token.json.
 SCOPES = ['https://mail.google.com/']
 
     
