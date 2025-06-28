@@ -1,5 +1,3 @@
-#starts the bot using pyttsx5 library takes care of speaking and reconising speech
-#from source using speech_recognition library
 
 import pyttsx3
 import speech_recognition as sr
