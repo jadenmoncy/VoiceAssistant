@@ -63,7 +63,7 @@ After completing the installation steps, you can start using the voice assistant
    For example:
    - "What's the weather like today?"
    - "Tell me a joke."
-   - "Who is the current president of the United States?"
+   - "Who is the current president of the India?"
 
 4. The assistant will process your command, generate a response, and speak it aloud using the text-to-speech functionality provided by `pyttsx3`.
 
